@@ -1,5 +1,5 @@
 from utils.mover import move_file
-from config.json_reader import folder_data, type_data
+from config.json_reader import folder_data_target, type_data
 import glob
 import time
 import argparse
@@ -22,11 +22,10 @@ def main(argument):
     
     while (loop):
         try:
-
-            main_source = str(folder_data["Downloads Folder"])
-
+            main_source = str(folder_data_target["Path Folder"])
+            
             for string in type_data:
-                main_destination = folder_data[string + " Folder"]
+                main_destination = folder_data_target[string + " Folder"]
                 file_type = type_data[string]
                 found_files = glob.glob(main_source + file_type)
 
