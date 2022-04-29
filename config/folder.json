@@ -1,0 +1,12 @@
+{
+    "Downloads Folder": "your/home/path",
+    "JPEG Folder": "path/to/where_jpegs_are_stored",
+    "JPG Folder": "path/to/where_jpegs_are_stored",
+    "PNG Folder": "path/to/where_pngs_are_stored",
+    "ZIP Folder": "path/to/where_zips_are_stored",
+    "TARGZ Folder": "path/to/where_tarballs_are_stored",
+    "PDF Folder": "path/to/where_pdfs_are_stored",
+    "DEB Folder": "path/to/where_debs_are_stored",
+    "GIF Folder": "path/to/where_gifs_are_stored",
+    "JAR Folder": "path/to/where_jars_are_stored"
+}

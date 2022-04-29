@@ -1,0 +1,11 @@
+{
+    "JPEG": "*.jpeg",
+    "JPG": "*.jpg",
+    "PNG": "*.png",
+    "ZIP": "*.zip",
+    "TARGZ": "*.tar.gz",
+    "PDF": "*.pdf",
+    "DEB": "*.deb",
+    "GIF": "*.gif",
+    "JAR": "*.jar"
+}
